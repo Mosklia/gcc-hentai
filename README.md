@@ -16,7 +16,7 @@
 
 然后找到你的 `gcc` 语言文件存放位置（默认应该是 `/usr/share/locale/zh_CN/LC_MESSAGES/gcc.mo`），建议将它备份。
 
-再用以下命令编译项目里的 `po` 文件并用它覆盖原来的语言文件：`msgfmt gcc.mo -o gcc.po && sudo cp gcc.po <GCC语言文件位置>`。
+再用以下命令编译项目里的 `po` 文件并用它覆盖原来的语言文件：`msgfmt gcc.po -o gcc.mo && sudo cp gcc.mo <GCC语言文件位置>`。
 
 此时你的 GCC 就应该已经变得可爱了～
 
