@@ -32,4 +32,9 @@
 
 再在克隆本项目的目录打开一个终端，运行 `msgfmt gcc.po -o gcc.mo`，用得到的 `gcc.mo` 替换 `<DIR>/usr/share/locale/zh_CN/LC_MESSAGES/gcc.mo`（建议事先对其进行备份）。
 
+如果使用 `Scoop` 安装, 可忽略上面操作一步到位:
+```
+scoop install https://raw.githubusercontent.com/Weidows-projects/scoop-3rd/main/bucket/cygwin-libs-hentai.json
+```
+
 此时你的 GCC 就应该已经变得可爱了～
