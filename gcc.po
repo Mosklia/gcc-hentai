@@ -13163,3 +13163,18 @@ msgstr "就...就在那个叫%qD的函数里..."
 
 msgid "unused variable %qD"
 msgstr "你是不是忘了某个叫作%qD的东西"
+
+msgid ""
+"%<constexpr%> loop iteration count exceeds limit of %d (use %<-fconstexpr-"
+"loop-limit=%> to increase the limit)"
+msgstr ""
+"人家对 %<constexpr%> 循环迭代了 %d 次都没算出结果，你想累死人家吗！ (才不会让你用 %<-fconstexpr-"
+"loop-limit=%> 提升限制呢)"
+
+msgid "%r%s:%d:%d:%R   in %<constexpr%> expansion of %qs"
+msgstr "%r%s:%d:%d:%R   在人家展开 %<constexpr%> 表达式 %qs 时"
+
+#: cp/error.cc:3832
+msgid "%r%s:%d:%R   in %<constexpr%> expansion of %qs"
+msgstr "%r%s:%d:%R   在人家展开 %<constexpr%> 表达式 %qs 时"
+
