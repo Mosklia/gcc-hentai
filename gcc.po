@@ -1082,7 +1082,7 @@ msgid "%q+D already declared with dllexport attribute: dllimport ignored"
 msgstr "%q+D已被声明为具有 dllexport 属性：忽略 dllimport"
 
 msgid "%q+D declared as a friend"
-msgstr "%q+D声明为友元"
+msgstr "%q+D是你的朋友!"
 
 msgid "%q+D declared with an exception specification"
 msgstr "%q+D声明时带有异常规范"
@@ -1146,7 +1146,7 @@ msgid "%qD cannot have default arguments"
 msgstr "%qD不能有默认参数"
 
 msgid "%qD changed semantics in GCC 4.4"
-msgstr "%qD在 GCC 4.4 中语义已经改变"
+msgstr "%qD在 GCC 4.4 中不这么叫了啊喂"
 
 msgid "%qD conflicts with used function"
 msgstr "%qD与已用的函数冲突"
@@ -13020,7 +13020,7 @@ msgid "virtual base %qT inaccessible in %qT due to ambiguity"
 msgstr "由于存在歧义，虚基类%qT在%qT中无法访问"
 
 msgid "virtual functions cannot be friends"
-msgstr "虚函数不能是友元"
+msgstr "虚函数好像不能做你的朋友"
 
 msgid "virtual non-class function %qs"
 msgstr "虚函数%qs不是类成员"
@@ -13059,10 +13059,10 @@ msgid "with"
 msgstr "with"
 
 msgid "writing into constant object (argument %d)"
-msgstr "对常量对象的写操作(实参 %d)"
+msgstr "哼，咱是不会让你对常量对象的写操作哒 (实参 %d)"
 
 msgid "writing through null pointer (argument %d)"
-msgstr "对空指针指向内容的写操作(实参 %d)"
+msgstr "这里指针是空的，不要再继续写入啦！(实参 %d)"
 
 msgid "writing to LTRANS output list %s: %m"
 msgstr "写入 LTRANS 输出列表 %s：%m"
@@ -13095,7 +13095,7 @@ msgid "wrong outgoing edge flags at end of bb %d"
 msgstr "基本块 %d 结尾处有错误的出边标记"
 
 msgid "wrong type argument to abs"
-msgstr "不能对该类型的参数求绝对值"
+msgstr "小孩子是不可以求绝对值哦"
 
 msgid "wrong type argument to bit-complement"
 msgstr "按位取反的参数类型错误"
@@ -13110,13 +13110,13 @@ msgid "wrong type argument to increment"
 msgstr "自增什么的，人家不知道怎么做呜"
 
 msgid "wrong type argument to unary exclamation mark"
-msgstr "单目 ! 的实参类型无效"
+msgstr "这个小朋友不喜欢变成TA的非"
 
 msgid "wrong type argument to unary minus"
-msgstr "单目减的操作数类型错误"
+msgstr "这里好像多出来个减号哎"
 
 msgid "wrong type argument to unary plus"
-msgstr "单目加的操作数类型错误"
+msgstr "这里好像多出来个加号哎"
 
 msgid "x87 register return with x87 disabled"
 msgstr "已禁用 x87 却在 x87 寄存器中返回"
@@ -13146,7 +13146,7 @@ msgid "zero-size array %qD"
 msgstr "零长度的数组%qD也很可爱哦"
 
 msgid "{anonymous}"
-msgstr "{匿名}"
+msgstr "{猜中人家给你奖励哦}"
 
 msgid "division by zero is not a constant expression"
 msgstr "你怎么敢拿除以零这种东西当常量表达式的啊"
