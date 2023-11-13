@@ -13059,10 +13059,10 @@ msgid "with"
 msgstr "with"
 
 msgid "writing into constant object (argument %d)"
-msgstr "对常量对象的写操作(实参 %d)"
+msgstr "哼，咱是不会让你对常量对象的写操作哒 (实参 %d)"
 
 msgid "writing through null pointer (argument %d)"
-msgstr "对空指针指向内容的写操作(实参 %d)"
+msgstr "这里指针是空的，不要再继续写入啦！(实参 %d)"
 
 msgid "writing to LTRANS output list %s: %m"
 msgstr "写入 LTRANS 输出列表 %s：%m"
@@ -13095,7 +13095,7 @@ msgid "wrong outgoing edge flags at end of bb %d"
 msgstr "基本块 %d 结尾处有错误的出边标记"
 
 msgid "wrong type argument to abs"
-msgstr "不能对该类型的参数求绝对值"
+msgstr "小孩子是不可以求绝对值哦"
 
 msgid "wrong type argument to bit-complement"
 msgstr "按位取反的参数类型错误"
@@ -13110,13 +13110,13 @@ msgid "wrong type argument to increment"
 msgstr "自增什么的，人家不知道怎么做呜"
 
 msgid "wrong type argument to unary exclamation mark"
-msgstr "单目 ! 的实参类型无效"
+msgstr "这个小朋友不喜欢变成TA的非"
 
 msgid "wrong type argument to unary minus"
-msgstr "笨蛋啦~ 回去看看这个减号怎么用吧"
+msgstr "这里好像多出来个减号哎"
 
 msgid "wrong type argument to unary plus"
-msgstr "笨蛋啦~ 回去看看这个加号怎么用吧"
+msgstr "这里好像多出来个加号哎"
 
 msgid "x87 register return with x87 disabled"
 msgstr "已禁用 x87 却在 x87 寄存器中返回"
