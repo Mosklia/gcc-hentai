@@ -1146,7 +1146,7 @@ msgid "%qD cannot have default arguments"
 msgstr "%qD不能有默认参数"
 
 msgid "%qD changed semantics in GCC 4.4"
-msgstr "%qD在 GCC 4.4 中不这么叫了啊喂"
+msgstr "%qD在 GCC 4.4 中不是这么个语义了啊喂"
 
 msgid "%qD conflicts with used function"
 msgstr "%qD与已用的函数冲突"
@@ -4735,7 +4735,7 @@ msgid "Options:\n"
 msgstr "选个：\n"
 
 msgid "Out of stack space.\n"
-msgstr "溢！...溢出来了呜呜呜！\n"
+msgstr "堆栈...溢！...溢出来了呜呜呜！\n"
 
 msgid "Output .debug_types section when using DWARF v4 debuginfo."
 msgstr "使用 DWARF v4 debuginfo 时输出 .debug_types 区段。"
@@ -6613,7 +6613,7 @@ msgid "call   %2d returned %s\n"
 msgstr "call   %2d 返回了 %s\n"
 
 msgid "call has circular dependency"
-msgstr "循环依赖咯"
+msgstr "调用出现循环依赖咯"
 
 msgid "call is unlikely and code size would grow"
 msgstr "调用不太可能且会导致代码膨胀"
@@ -13059,10 +13059,10 @@ msgid "with"
 msgstr "with"
 
 msgid "writing into constant object (argument %d)"
-msgstr "哼，咱是不会让你对常量对象的写操作哒 (实参 %d)"
+msgstr "是不是又想把一些奇奇怪怪的东西写入常量对象，比如说实参 %d？"
 
 msgid "writing through null pointer (argument %d)"
-msgstr "这里指针是空的，不要再继续写入啦！(实参 %d)"
+msgstr "实参 %d 这里的指针是空的，不要再继续写入啦！"
 
 msgid "writing to LTRANS output list %s: %m"
 msgstr "写入 LTRANS 输出列表 %s：%m"
@@ -13095,7 +13095,7 @@ msgid "wrong outgoing edge flags at end of bb %d"
 msgstr "基本块 %d 结尾处有错误的出边标记"
 
 msgid "wrong type argument to abs"
-msgstr "小孩子是不可以求绝对值哦"
+msgstr "这个类型还小，小孩子是不可以求绝对值哦"
 
 msgid "wrong type argument to bit-complement"
 msgstr "按位取反的参数类型错误"
@@ -13104,19 +13104,19 @@ msgid "wrong type argument to conjugation"
 msgstr "不能对该类型的参数求共轭"
 
 msgid "wrong type argument to decrement"
-msgstr "自减什么的，人家不知道怎么做呜"
+msgstr "对这些类型自减什么的，人家不知道怎么做呜"
 
 msgid "wrong type argument to increment"
-msgstr "自增什么的，人家不知道怎么做呜"
+msgstr "对这些类型自增什么的，人家不知道怎么做呜"
 
 msgid "wrong type argument to unary exclamation mark"
-msgstr "这个小朋友不喜欢变成TA的非"
+msgstr "人家真的不知道把这个类型的东西和单目 ! 放在一起是什么意思啦"
 
 msgid "wrong type argument to unary minus"
-msgstr "这里好像多出来个减号哎"
+msgstr "人家只是不想对这个类型的操作数做单目减，才不是人家不会！"
 
 msgid "wrong type argument to unary plus"
-msgstr "这里好像多出来个加号哎"
+msgstr "人家只是不想对这个类型的操作数做单目加，才不是人家不会！"
 
 msgid "x87 register return with x87 disabled"
 msgstr "已禁用 x87 却在 x87 寄存器中返回"
