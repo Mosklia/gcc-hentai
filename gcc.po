@@ -3629,7 +3629,7 @@ msgid "FORMAT statement at %L does not have a statement label"
 msgstr "%L处 FORMAT 语句没有语句标号"
 
 msgid "Fatal Error"
-msgstr "致命错误"
+msgstr "坏掉了"
 
 msgid ""
 "First argument of defined assignment at %L must be INTENT(OUT) or "
@@ -4059,7 +4059,7 @@ msgstr ""
 "换"
 
 msgid "ISO C90 does not support %<[*]%> array declarators"
-msgstr "ISO C90 不支持%<[*]%>数组声明"
+msgstr "听不懂呜哇哇，ISO C90 听不懂%<[*]%> 数组声明方式的啦"
 
 msgid "ISO C90 does not support %<_Generic%>"
 msgstr "ISO C90 不支持 %<_Generic%>"
@@ -4071,7 +4071,7 @@ msgid "ISO C90 does not support %<__func__%> predefined identifier"
 msgstr "ISO C90 不支持 %<__func__%> 预定义标识符"
 
 msgid "ISO C90 does not support %<long long%>"
-msgstr "ISO C90 不支持%<long long%>"
+msgstr "啊，咱 ISO C90 还是觉得 %<long long%> 太长了唔"
 
 msgid ""
 "ISO C90 does not support %<static%> or type qualifiers in parameter array "
@@ -4082,10 +4082,10 @@ msgid "ISO C90 does not support %qE"
 msgstr "ISO C90 不支持 %qE"
 
 msgid "ISO C90 does not support boolean types"
-msgstr "ISO C90 不支持布尔类型"
+msgstr "咱是 ISO C90 的，不认得那些新物什，布尔是什么呀"
 
 msgid "ISO C90 does not support complex types"
-msgstr "ISO C90 不支持复数类型"
+msgstr "咱是 ISO C90 的，不认得那些新东西，复数是什么呀"
 
 msgid "ISO C90 does not support flexible array members"
 msgstr "ISO C90 不允许可变数组成员"
@@ -4644,7 +4644,7 @@ msgid "No executable lines\n"
 msgstr "没有可执行行\n"
 
 msgid "No longer supported."
-msgstr "不再支持。"
+msgstr "不会再爱。"
 
 msgid "Non-ELEMENTAL user-defined assignment in WHERE at %L"
 msgstr "%L处 WHERE 中用户定义的非 ELEMENTAL 用户赋值"
@@ -4732,10 +4732,10 @@ msgid "Operator interface at %L must have, at most, two arguments"
 msgstr "%L处的运算符接口必须有至多两个实参"
 
 msgid "Options:\n"
-msgstr "选项：\n"
+msgstr "选个：\n"
 
 msgid "Out of stack space.\n"
-msgstr "堆栈溢出。\n"
+msgstr "溢！...溢出来了呜呜呜！\n"
 
 msgid "Output .debug_types section when using DWARF v4 debuginfo."
 msgstr "使用 DWARF v4 debuginfo 时输出 .debug_types 区段。"
@@ -5952,7 +5952,7 @@ msgid "Warn whenever type qualifiers are ignored."
 msgstr "当类型限定符被忽略时给出警告。"
 
 msgid "Warning"
-msgstr "警告"
+msgstr "盯你一眼"
 
 msgid "While setting up signal handler: %m"
 msgstr "当设置信号处理者时：%m"
@@ -6613,7 +6613,7 @@ msgid "call   %2d returned %s\n"
 msgstr "call   %2d 返回了 %s\n"
 
 msgid "call has circular dependency"
-msgstr "调用存在循环依赖"
+msgstr "循环依赖咯"
 
 msgid "call is unlikely and code size would grow"
 msgstr "调用不太可能且会导致代码膨胀"
@@ -7230,7 +7230,7 @@ msgid "converting %<false%> to pointer type for argument %P of %qD"
 msgstr "将%<false%>转换为指向%2$qD的实参 %1$P 的指针类型"
 
 msgid "converting NULL to non-pointer type"
-msgstr "将 NULL 转换为非指针类型"
+msgstr "你要把 NULL 转换为非指针类型吗"
 
 msgid "converting overloaded function %qD to type %q#T is ambiguous"
 msgstr "将重载函数%qD转换为类型%q#T有歧义"
@@ -7267,13 +7267,13 @@ msgid "could not close temporary response file %s"
 msgstr "无法关闭临时响应文件 %s"
 
 msgid "could not find a spill register"
-msgstr "找不到可溢出的寄存器"
+msgstr "主人太多了，人家找不到可溢出的寄存器啦"
 
 msgid "could not find class %qE"
-msgstr "找不到类%qE"
+msgstr "找不到类%qE，怎么找都找不到"
 
 msgid "could not find interface for class %qE"
-msgstr "找不到类%qE的接口"
+msgstr "类%qE的接口走丢啦，再找找叭"
 
 msgid "could not find setter/getter for %qE in class %qE"
 msgstr "类 %2$qE 中找不到 %1$qE 的存取器。"
@@ -7372,10 +7372,10 @@ msgid "dead histogram"
 msgstr "不活跃直方图"
 
 msgid "debug"
-msgstr "调试"
+msgstr "太...太羞耻了"
 
 msgid "debug: "
-msgstr "调试："
+msgstr "太...太羞耻了："
 
 msgid "declaration %qD does not declare anything"
 msgstr "声明%qD没有声明任何东西"
@@ -7635,10 +7635,10 @@ msgid "difference between %qE and %qD does not have integer type"
 msgstr "%qE和%qD之间的差不具有整数类型"
 
 msgid "different number of parameters"
-msgstr "形参数量不同"
+msgstr "小形参，量不同，砸到头上呜呜呜"
 
 msgid "different parameter types"
-msgstr "形参类型不同"
+msgstr "小形参，类型异，看不懂，就大寄"
 
 msgid "different receiver types"
 msgstr "不同的接收器类型"
@@ -7689,7 +7689,7 @@ msgid "duplicate %qs"
 msgstr "重复的%qs"
 
 msgid "duplicate (or overlapping) case value"
-msgstr "重复 (或重叠) 的 case 值"
+msgstr "重复 (或重叠) 的 case 值，该选哪一个呢？"
 
 msgid "duplicate base type %qT invalid"
 msgstr "重复的基类型%qT无效"
@@ -7841,7 +7841,7 @@ msgid "environment variable COLLECT_GCC_OPTIONS must be set"
 msgstr "环境变量 COLLECT_GCC_OPTIONS 必须被设置"
 
 msgid "error"
-msgstr "错误"
+msgstr "笨蛋！"
 
 msgid "error closing %s: %m"
 msgstr "关闭 %s 时出错：%m"
