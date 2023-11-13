@@ -16,7 +16,7 @@
 
 然后找到你的 `gcc` 语言文件存放位置（默认应该是 `/usr/share/locale/zh_CN/LC_MESSAGES/gcc.mo`），建议将它备份。
 
-再用以下命令编译项目里的 `po` 文件并用它覆盖原来的语言文件：`msgfmt gcc.mo -o gcc.po && sudo cp gcc.po <GCC语言文件位置>`。
+再用以下命令编译项目里的 `po` 文件并用它覆盖原来的语言文件：`msgfmt gcc.po -o gcc.mo && sudo cp gcc.mo <GCC语言文件位置>`。
 
 此时你的 GCC 就应该已经变得可爱了～
 
@@ -31,5 +31,10 @@
 然后将目录 `<DIR>/bin` 目录添加到 `Path` 环境变量，并额外增加一条环境变量 `LANG`，设置为 `zh_CN.UTF-8`。
 
 再在克隆本项目的目录打开一个终端，运行 `msgfmt gcc.po -o gcc.mo`，用得到的 `gcc.mo` 替换 `<DIR>/usr/share/locale/zh_CN/LC_MESSAGES/gcc.mo`（建议事先对其进行备份）。
+
+如果使用 `Scoop` 安装, 可忽略上面操作一步到位:
+```
+scoop install https://raw.githubusercontent.com/Weidows-projects/scoop-3rd/main/bucket/cygwin-libs-hentai.json
+```
 
 此时你的 GCC 就应该已经变得可爱了～

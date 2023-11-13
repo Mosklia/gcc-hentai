@@ -13104,10 +13104,10 @@ msgid "wrong type argument to conjugation"
 msgstr "不能对该类型的参数求共轭"
 
 msgid "wrong type argument to decrement"
-msgstr "该类型不支持自减"
+msgstr "自减什么的，人家不知道怎么做呜"
 
 msgid "wrong type argument to increment"
-msgstr "该类型不支持自增"
+msgstr "自增什么的，人家不知道怎么做呜"
 
 msgid "wrong type argument to unary exclamation mark"
 msgstr "单目 ! 的实参类型无效"
@@ -13128,7 +13128,7 @@ msgid "zero or negative size array %q+D"
 msgstr "数组%q+D大小为 0 或负"
 
 msgid "zero vector size"
-msgstr "向量大小为 0"
+msgstr "你的向量长度也是零吗"
 
 msgid "zero width for bit-field %q+D"
 msgstr "位段%q+D宽度为 0"
@@ -13143,7 +13143,7 @@ msgid "zero-length %s format string"
 msgstr "格式字符串 %s 长度为 0"
 
 msgid "zero-size array %qD"
-msgstr "大小为 0 的数组%qD"
+msgstr "零长度的数组%qD也很可爱哦"
 
 msgid "{anonymous}"
 msgstr "{匿名}"
