@@ -12942,10 +12942,10 @@ msgid ""
 msgstr "条件表达式第三个操作数中的对象%qE具有不完全的类型%qT，不会被访问"
 
 msgid "variable length array %qD is used"
-msgstr "使用了变长数组%qD"
+msgstr "%qD 是一个变长数组欸"
 
 msgid "variable length array is used"
-msgstr "使用了变长数组"
+msgstr "是变长数组欸"
 
 msgid "variable or field %qE declared void"
 msgstr "变量或字段%qE声明为 void"
@@ -13026,7 +13026,7 @@ msgid "virtual non-class function %qs"
 msgstr "虚函数%qs不是类成员"
 
 msgid "visibility argument not a string"
-msgstr "visibility 的实参不是一个字符串"
+msgstr "可见性（visibility）对字符串还是太抗拒了"
 
 msgid "visibility attribute not supported in this configuration; ignored"
 msgstr "可见性属性在此配置下不受支持；已忽略"
@@ -13101,7 +13101,7 @@ msgid "wrong type argument to bit-complement"
 msgstr "按位取反的参数类型错误"
 
 msgid "wrong type argument to conjugation"
-msgstr "不能对该类型的参数求共轭"
+msgstr "哒咩！对该类型的参数求共轭会孬掉的"
 
 msgid "wrong type argument to decrement"
 msgstr "对这些类型自减什么的，人家不知道怎么做呜"
@@ -13125,7 +13125,7 @@ msgid "xstormy16_print_operand: unknown code"
 msgstr "xstormy16_print_operand：未知代码"
 
 msgid "zero or negative size array %q+D"
-msgstr "数组%q+D大小为 0 或负"
+msgstr "人家喜欢长度大于零的数组%q+D哦"
 
 msgid "zero vector size"
 msgstr "你的向量长度也是零吗"
