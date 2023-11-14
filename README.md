@@ -40,7 +40,7 @@ msgfmt gcc.po -o gcc.mo
 
 2. 将目录 `<DIR>/bin` 目录添加到 `Path` 环境变量，并额外增加一条环境变量 `LANG`，设置为 `zh_CN.UTF-8`
 
-3. 再在克隆本项目的目录打开一个终端，运行 `msgfmt gcc.po -o gcc.mo`，用得到的 `gcc.mo` 替换 `<DIR>/usr/share/locale/zh_CN/LC_MESSAGES/gcc.mo`（建议事先对其进行备份）。
+3. [编译](#编译)得到`gcc.mo`，用得到的 `gcc.mo` 替换 `<DIR>/usr/share/locale/zh_CN/LC_MESSAGES/gcc.mo`（建议事先对其进行备份）。
 
 如果使用 `Scoop` 安装, 可忽略上面操作一步到位:
 ```
