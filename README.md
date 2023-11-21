@@ -28,6 +28,8 @@ msgfmt gcc.po -o gcc.mo
 
 4. 将编译得到的`gcc.mo`覆盖原来的语言文件（`cp gcc.mo <GCC语言文件位置>`）
 
+在项目目录下运行
+
 ```
 gcc -Wall test.cpp
 ```
@@ -66,16 +68,22 @@ scoop install https://raw.githubusercontent.com/Weidows-projects/scoop-3rd/main/
 
 在 Linux 和 Windows 上均已测试可用
 
-### 找不到`gcc.mo`
+### Linux下找不到`gcc.mo`
+
+以`Ubuntu 20.04.6 LTS`为例：
 
 1. 检查gcc版本，获取大版本号。
+
     ```
     gcc --version
     ```
 
 2. 下载gcc的本地化包。
+
     ```
     sudo apt-get install gcc-${gcc大版本号}-locales
     ```
 
-3. 这时应该能找到`/usr/share/locale/zh_CN/LC_MESSAGES/gcc.mo`
+3. 这时应该能找到`/usr/share/locale/zh_CN/LC_MESSAGES/gcc-${大版本号}.mo`了~
+
+4. 按使用方法继续操作，就能得到可爱的GCC了~
