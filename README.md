@@ -24,7 +24,7 @@ msgfmt gcc.po -o gcc.mo
 
 2. [编译](#编译)得到`gcc.mo`
 
-3. 找到你的 `gcc` 语言文件存放位置（默认应该是 `/usr/share/locale/zh_CN/LC_MESSAGES/gcc.mo`），建议将它备份（`mv gcc.mo gcc.mo_bak`）
+3. 找到你的 `gcc` 语言文件存放位置（默认应该是 `/usr/share/locale/zh_CN/LC_MESSAGES/gcc.mo`）; 没有的话用`sudo find /usr/share/ -name gcc.mo`命令找到对应文件夹; 建议将它备份（`mv gcc.mo gcc.mo_bak`）
 
 4. 将编译得到的`gcc.mo`覆盖原来的语言文件（`cp gcc.mo <GCC语言文件位置>`）
 
