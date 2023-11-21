@@ -28,6 +28,10 @@ msgfmt gcc.po -o gcc.mo
 
 4. 将编译得到的`gcc.mo`覆盖原来的语言文件（`cp gcc.mo <GCC语言文件位置>`）
 
+```
+gcc -Wall test.cpp
+```
+
 此时你的 GCC 就应该已经变得可爱了～
 
 如果你的系统并不使用中文，你可能需要在使用 GCC 时临时将 `LANGUAGE` 设置成 `zh_CN.UTF-8`。
@@ -68,8 +72,10 @@ scoop install https://raw.githubusercontent.com/Weidows-projects/scoop-3rd/main/
     ```
     gcc --version
     ```
+
 2. 下载gcc的本地化包。
     ```
     sudo apt-get install gcc-${gcc大版本号}-locales
     ```
+
 3. 这时应该能找到`/usr/share/locale/zh_CN/LC_MESSAGES/gcc.mo`
