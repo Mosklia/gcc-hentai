@@ -49,6 +49,8 @@ scoop install https://raw.githubusercontent.com/Weidows-projects/scoop-3rd/main/
 
 此时你的 GCC 就应该已经变得可爱了～
 
+## FAQ
+
 ### 不替换原有语言包
 
 在 `/locale` 目录下，新建一个目录（例如：`zh_CN_hentai`），仿照原有路径，将 `gcc.mo` 放入 `LC_MESSAGES/` 目录中
@@ -59,3 +61,15 @@ scoop install https://raw.githubusercontent.com/Weidows-projects/scoop-3rd/main/
 *`LANGUAGE=zh_CN_hentai`*
 
 在 Linux 和 Windows 上均已测试可用
+
+### 找不到`gcc.mo`
+
+1. 检查gcc版本，获取大版本号。
+    ```
+    gcc --version
+    ```
+2. 下载gcc的本地化包。
+    ```
+    sudo apt-get install gcc-${gcc大版本号}-locales
+    ```
+3. 这时应该能找到`/usr/share/locale/zh_CN/LC_MESSAGES/gcc.mo`
