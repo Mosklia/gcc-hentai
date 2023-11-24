@@ -55,8 +55,6 @@ scoop install https://raw.githubusercontent.com/Weidows-projects/scoop-3rd/main/
 
 此时你的 GCC 就应该已经变得可爱了～
 
-## FAQ
-
 ### 不替换原有语言包
 
 在 `/locale` 目录下，新建一个目录（例如：`zh_CN_hentai`），仿照原有路径，将 `gcc.mo` 放入 `LC_MESSAGES/` 目录中
@@ -68,11 +66,13 @@ scoop install https://raw.githubusercontent.com/Weidows-projects/scoop-3rd/main/
 
 在 Linux 和 Windows 上均已测试可用
 
-### Linux下找不到`gcc.mo`
+## FAQ
+
+### Debian-based distributions下找不到`gcc.mo`
 
 以`Ubuntu 20.04.6 LTS`为例：
 
-1. 检查gcc版本，获取大版本号。
+1. 检查gcc版本，获取大版本号(MAIN VERSION)。
 
     ```
     gcc --version
@@ -81,9 +81,10 @@ scoop install https://raw.githubusercontent.com/Weidows-projects/scoop-3rd/main/
 2. 下载gcc的本地化包。
 
     ```
-    sudo apt-get install gcc-${gcc大版本号}-locales
+    sudo apt-get install gcc-${MAIN VERSION}-locales
     ```
 
-3. 这时应该能找到`/usr/share/locale/zh_CN/LC_MESSAGES/gcc-${大版本号}.mo`了~
+3. 这时应该能找到`/usr/share/locale/zh_CN/LC_MESSAGES/gcc-${MAIN VERSION}.mo`了，
+   或者通过`locate gcc | grep "gcc\(-[0-9]\+\)\?\.mo"`查找。
 
 4. 按使用方法继续操作，就能得到可爱的GCC了~

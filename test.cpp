@@ -1,4 +1,5 @@
 #include <iostream>
+#include <array>
 
 template <typename T>
 void Print(T t) {
@@ -21,18 +22,20 @@ void test(int a,double b){
 
 double main(){
     uint64_t a=-1;
-    long long long b;
-    char c=a;
-    double d;
-    int array[5];
-    array[5]=5;
+    long long long b=reinterpret_cast<int>(a);
+    char c=const_cast<char>(a);
+    double d=1e512;
 
     printf("%d",d);
-    std::cout<<b;
-    const int f=(1+1+4)/(5-1-4);
+    constexpr int f=(1+1+4)/(5-1-4);
+
+    std::array<int,a> arr;
+    arr[b]=b;
 
     Print(f);
     Recursive<f>;
     Integral(d);
     test(d);
+
+    return d;
 }
