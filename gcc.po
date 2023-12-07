@@ -4615,10 +4615,10 @@ msgid "Name after !$omp critical and !$omp end critical does not match at %C"
 msgstr "%C处 !$omp critical 和 !$omp end critical 后的名字不匹配"
 
 msgid "Name at %C is too long"
-msgstr "%C 的名字太长"
+msgstr "%C 的名字太长了，绝对会坏掉的……"
 
 msgid "Name too long"
-msgstr "名字太长"
+msgstr "你的名字太长了啦~呜呜"
 
 msgid "Named block DO at %L requires matching ENDDO name"
 msgstr "%L处有名的块 DO 需要匹配的 ENDDO 名"
@@ -12341,7 +12341,7 @@ msgid "too many alternatives in %<asm%>"
 msgstr "%<asm%>中太多变数"
 
 msgid "too many arguments"
-msgstr "实参太多"
+msgstr "呃呜……实参太多了"
 
 msgid "too many arguments for format"
 msgstr "提供给格式字符串的实参太多"
@@ -12356,10 +12356,10 @@ msgid "too many arguments to %%:version-compare"
 msgstr "%%：version-compare 的参数太多"
 
 msgid "too many arguments to function"
-msgstr "给予函数的实参太多"
+msgstr "呜呜……小小的函数身体里面塞不进那么多实参啦"
 
 msgid "too many arguments to function %qE"
-msgstr "提供给函数%qE的实参太多"
+msgstr "呜呜……小小的函数%qE里面塞不进那么多实参啦"
 
 msgid "too many braces around initializer for %qT"
 msgstr "%qT的初始值设定周围花括号太多"
@@ -12884,7 +12884,7 @@ msgid "using-declaration for non-member at class scope"
 msgstr "在类作用域使用非成员的 using 声明"
 
 msgid "value computed is not used"
-msgstr "计算出的值未被使用"
+msgstr "计算出的值要丢在这里不管了吗？"
 
 msgid "var-tracking-assignments changes selective scheduling"
 msgstr "var-tracking-assignments 改变了选择性调度"
@@ -13098,7 +13098,7 @@ msgid "wrong type argument to abs"
 msgstr "这个类型还小，小孩子是不可以求绝对值哦"
 
 msgid "wrong type argument to bit-complement"
-msgstr "按位取反的参数类型错误"
+msgstr "雅达~这种东西不能拿来让我取反啦"
 
 msgid "wrong type argument to conjugation"
 msgstr "哒咩！对该类型的参数求共轭会孬掉的"
@@ -13140,7 +13140,7 @@ msgid "zero width in %s format"
 msgstr "%s 格式字符串中域宽为 0"
 
 msgid "zero-length %s format string"
-msgstr "格式字符串 %s 长度为 0"
+msgstr "零长度的格式字符串%s也很可爱哦"
 
 msgid "zero-size array %qD"
 msgstr "零长度的数组%qD也很可爱哦"
