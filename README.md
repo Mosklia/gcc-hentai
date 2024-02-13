@@ -62,4 +62,4 @@ scoop install https://raw.githubusercontent.com/Weidows-projects/scoop-3rd/main/
 在 Linux 和 Windows 上均已测试可用
 
 # Clang
-目前我[自己魔改了一下 LLVM 项目](https://github.com/llvm/llvm-project/commit/5bfaff3d98caf91d49f76db3d079575d50bf8923)，使得 Clang（包括 Clangd 的部分输出）也会使用 GNU Gettext 查找翻译。有需要的可以自行编译然后[按照与 GCC 类似的方法](#linux)将 `clang.po` 编译成 `clang.mo`。
+目前我[自己魔改了一下 LLVM 项目](https://github.com/Mosklia/llvm-nls/commit/5bfaff3d98caf91d49f76db3d079575d50bf8923)，使得 Clang（包括 Clangd 的部分输出）也会使用 GNU Gettext 查找翻译。有需要的可以自行编译然后[按照与 GCC 类似的方法](#linux)将 `clang.po` 编译成 `clang.mo`。
