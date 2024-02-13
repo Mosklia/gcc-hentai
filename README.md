@@ -1,11 +1,12 @@
 # gcc-hentai
 
-让你的 GCC 变得更可爱！
+让你的 GCC 和 Clang 变得更可爱！
 
-本项目通过修改 GCC 的翻译文件，让 GCC 编译器的输出信息变得更加可爱。
+本项目通过修改翻译文件，让编译器的输出信息变得更加可爱。
 
 目前已经完成修改的信息并不多，欢迎大家前来投稿~进一步调教~！
 
+# GCC
 ## 前置依赖
 - GNU GCC（建议版本 13.2.0）
 - GNU Gettext
@@ -59,3 +60,6 @@ scoop install https://raw.githubusercontent.com/Weidows-projects/scoop-3rd/main/
 *`LANGUAGE=zh_CN_hentai`*
 
 在 Linux 和 Windows 上均已测试可用
+
+# Clang
+目前我[自己魔改了一下 LLVM 项目](https://github.com/llvm/llvm-project/commit/5bfaff3d98caf91d49f76db3d079575d50bf8923)，使得 Clang（包括 Clangd 的部分输出）也会使用 GNU Gettext 查找翻译。有需要的可以自行编译然后[按照与 GCC 类似的方法](#linux)将 `clang.po` 编译成 `clang.mo`。

@@ -1,0 +1,65 @@
+# SPDX-FileCopyrightText: 2024 mosklia <Mosklia@outlook.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: clang lol\n"
+"Report-Msgid-Bugs-To: https://mosklia.cn\n"
+"PO-Revision-Date: 2024-02-13 17:39+0800\n"
+"Last-Translator: mosklia <Mosklia@outlook.com>\n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 23.08.4\n"
+
+msgid "%0 declared here"
+msgstr "才不会告诉你%0定义在这里呢"
+
+msgid "'main' must return 'int'"
+msgstr "你不知道'main'必须返回'int'吗"
+
+msgid ""
+"(skipping %0 call%s0 in backtrace; use -fconstexpr-backtrace-limit=0 to see "
+"all)"
+msgstr ""
+"(人家估计你也看不完，就省略了%0次函数调用。你可别想用 -fconstexpr-backtrace-"
+"limit=0 来查看全部的函数调用)"
+
+msgid "ISO C++11 does not allow conversion from string literal to %0"
+msgstr "C++11 标准都说了，不可以将字符串字面量转换成 %0，笨！"
+
+msgid "constexpr evaluation exceeded maximum depth of %0 calls"
+msgstr "人家模拟了整整%0次函数调用都没能算出这个常量表达式"
+
+msgid "constexpr evaluation hit maximum step limit; possible infinite loop?"
+msgstr "为什么这个常量表达式计算量这么大啊！你不是在用死循环欺负人家吧？"
+
+msgid "constexpr variable %0 must be initialized by a constant expression"
+msgstr "constexpr 变量%0可是必须要被常量表达式初始化的啊"
+
+msgid "in call to '%0'"
+msgstr "在人家调用'%0'时"
+
+msgid "namespace"
+msgstr "命名空间"
+
+msgid "no input files"
+msgstr "你还没说要让人家干什么呢！"
+
+msgid "no member named %0 in %1"
+msgstr "人家在%1里找不到%0，呜呜"
+
+msgid "no member named %0 in %1; did you mean %select{|simply }2%3?"
+msgstr "在%1里找不到%0。人家才不会觉得你的意思是%select{|simply }2%3呢！"
+
+msgid "use of undeclared identifier %0"
+msgstr "你还没有告诉人家%0是什么呢"
+
+msgid "use of undeclared identifier %0; "
+msgstr "你还没有告诉人家%0是什么呢；"
+
+msgid "use of undeclared identifier %0; did you mean %1?"
+msgstr "你还没有告诉人家%0是什么呢；人家猜...你指的肯定不是%1吧！"
+
